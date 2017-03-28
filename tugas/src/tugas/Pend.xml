@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kependidikan  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="pend.xsd">
+
+<mahasiswa status="aktif">
+<nama>Andi Tenri Wali</nama>
+<Npm>1154013</Npm>
+<Prodi>D4 TI 2C</Prodi>
+<asal>
+		<Kota>Bandung</Kota>
+		<kodepos>40552</kodepos>
+</asal>
+<orangtua>
+	<ayah>Andi Bintang Raja</ayah>
+	<ibu> Rubaedah </ibu>
+</orangtua>
+<agama>Islam</agama>
+<ttl>tanete,12 januari 1997</ttl>
+<no.telp>081234567899</no.telp>
+<semester>4</semester>
+<ipk>3</ipk>
+</mahasiswa>
+
+<mahasiswa status="aktif">
+<nama>Andi Nurfadillah ali</nama>
+<Npm>1154011</Npm>
+<Prodi>D4 TI 2C</Prodi>
+<asal>
+		<Kota>Bandung</Kota>
+		<kodepos>40552</kodepos>
+</asal>
+<orangtua>
+	<ayah>Andi Ali</ayah>
+	<ibu> Rosmi </ibu>
+</orangtua>
+<agama>Islam</agama>
+<ttl>herlang,13 januari 1997</ttl>
+<no.telp>081234567888</no.telp>
+<semester>4</semester>
+<ipk>3</ipk>
+</mahasiswa>
+
+<mahasiswa status="aktif">
+<nama>Arya niken</nama>
+<Npm>1154022</Npm>
+<Prodi>D4 TI 2C</Prodi>
+<asal>
+		<Kota>Bandung</Kota>
+		<kodepos>40552</kodepos>
+</asal>
+<orangtua>
+	<ayah>vidi aldiano</ayah>
+	<ibu> maudy</ibu>
+</orangtua>
+<agama>Islam</agama>
+<ttl>bekasi,14 januari 1997</ttl>
+<no.telp>081234567877</no.telp>
+<semester>4</semester>
+<ipk>3</ipk>
+</mahasiswa>
+
+<mahasiswa status="aktif">
+<nama>pebridayanti</nama>
+<Npm>1154010</Npm>
+<Prodi>D4 TI 2C</Prodi>
+<asal>
+		<Kota>Bandung</Kota>
+		<kodepos>40552</kodepos>
+</asal>
+<orangtua>
+	<ayah>sehun</ayah>
+	<ibu>irene</ibu>
+</orangtua>
+<agama>Islam</agama>
+<ttl>medan,12 januari 1997</ttl>
+<no.telp>081234567866</no.telp>
+<semester>4</semester>
+<ipk>3</ipk>
+</mahasiswa>
+
+<mahasiswa status="aktif">
+<nama>ananda</nama>
+<Npm>1154088</Npm>
+<Prodi>D4 TI 2C</Prodi>
+<asal>
+		<Kota>Bandung</Kota>
+		<kodepos>40552</kodepos>
+</asal>
+<orangtua>
+	<ayah>Kai</ayah>
+	<ibu>Krystal</ibu>
+</orangtua>
+<agama>Islam</agama>
+<ttl>tiro,19 januari 1997</ttl>
+<no.telp>081234567887</no.telp>
+<semester>4</semester>
+<ipk>3</ipk>
+</mahasiswa>
+
+</kependidikan>

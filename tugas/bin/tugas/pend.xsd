@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="kependidikan">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="mahasiswa"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="mahasiswa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nama"/>
+                <xs:element ref="Npm" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="Prodi"/>
+                <xs:element ref="asal"/>
+                <xs:element ref="orangtua"/>
+                <xs:element ref="agama"/>
+                <xs:element ref="ttl"/>
+                <xs:element ref="no.telp"/>
+                <xs:element ref="semester"/>
+                <xs:element ref="ipk"/>
+            </xs:sequence>
+            <xs:attribute name="status" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nama" type="xs:string"/>
+    <xs:element name="Npm" type="xs:integer"/>
+    <xs:element name="Prodi" type="xs:string"/>
+    <xs:element name="asal">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Kota"/>
+                <xs:element ref="kodepos"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Kota" type="xs:NCName"/>
+    <xs:element name="kodepos" type="xs:integer"/>
+    <xs:element name="orangtua">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ayah"/>
+                <xs:element ref="ibu"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ayah" type="xs:string"/>
+    <xs:element name="ibu" type="xs:NCName"/>
+    <xs:element name="agama" type="xs:NCName"/>
+    <xs:element name="ttl" type="xs:string"/>
+    <xs:element name="no.telp" type="xs:integer"/>
+    <xs:element name="semester" type="xs:integer"/>
+    <xs:element name="ipk">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:integer">
+    			<xs:pattern value="3"></xs:pattern>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+</xs:schema>
